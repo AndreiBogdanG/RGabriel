@@ -1,0 +1,23 @@
+.hero-bg {
+  background-image: linear-gradient(
+      rgba(92, 64, 51, 0.7),
+      rgba(92, 64, 51, 0.7)
+    ),
+    url(/Gallery/IMG-20250922-WA0001.jpg);
+  /* background-image: linear-gradient(rgba(92, 64, 51, 0.7), rgba(92, 64, 51, 0.7)), url('http://static.photos/wood/1200x630/42'); */
+}
+.briar-brown {
+  background-color: #5c4033;
+}
+.briar-light {
+  background-color: #8b5a2b;
+}
+.briar-dark {
+  background-color: #3e2723;
+}
+.text-briar {
+  color: #5c4033;
+}
+.border-briar {
+  border-color: #5c4033;
+}

@@ -314,12 +314,12 @@
         <div class="text-center mt-12">
           <a
             href="gallery.html"
-            class="inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
+            class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
             >View Full Gallery
           </a>
           <a
             href="#contact"
-            class="inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
+            class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
             >Request Custom Pipe</a
           >
         </div>
@@ -398,18 +398,37 @@
               available at lower prices.
             </p>
             <div class="bg-white bg-opacity-10 p-6 rounded-lg">
-              <h4 class="font-bold mb-3 text-lg">
-                Ready to begin your pipe journey?
-              </h4>
-              <p class="text-gray-300 mb-4">
-                Contact me today to discuss your perfect pipe.
-              </p>
-              <a
-                href="mailto:rgabriel@cavalerurban.com"
-                class="inline-block bg-amber-600 hover:bg-amber-700 text-white px-6 py-2 rounded-full transition"
-              >
-                <i data-feather="mail" class="inline mr-2 w-4 h-4"></i> Email Me
-              </a>
+              <div class="center-div">
+                <h4 class="font-bold mb-3 text-lg">
+                  Ready to begin your pipe journey?
+                </h4>
+                <p class="text-gray-300 mb-4">
+                  Contact me today to discuss your perfect pipe.
+                </p>
+
+                <div class="buttons-align">
+                  <a
+                    href="mailto:rgabriel@cavalerurban.com"
+                    class="inline-block bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-full transition"
+                  >
+                    <btn
+                      data-feather="mail"
+                      class="btn inline mr-3 w-4 h-4"
+                    ></btn>
+                    Email Me
+                  </a>
+                  <a
+                    href="https://etsy.com"
+                    class="inline-block bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-full transition"
+                  >
+                    <btn
+                      data-feather="smile"
+                      class="btn inline mr-3 w-4 h-4"
+                    ></btn>
+                    Visit Shop
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -427,7 +446,7 @@
               <img id="signature" src="Gallery/SemnaturaYlw.png" />
             </h3>
             <p class="mt-2 text-amber-200">
-              Handcrafted smoking pipes since 2025
+              Handcrafted smoking pipes and accessories
             </p>
           </div>
           <div class="flex space-x-6">
@@ -451,21 +470,22 @@
       </div>
     </footer>
 
-    <script>
-      // Mobile menu toggle
-      document
-        .getElementById("menu-btn")
-        .addEventListener("click", function () {
-          const menu = document.getElementById("mobile-menu");
-          menu.classList.toggle("hidden");
-        });
+    <script src="script.js">
+      //   // Mobile menu toggle
+      //   document
+      //     .getElementById("menu-btn")
+      //     .addEventListener("click", function () {
+      //       const menu = document.getElementById("mobile-menu");
+      //       menu.classList.toggle("hidden");
+      //     });
 
-      // Initialize animations and icons
-      AOS.init({
-        duration: 800,
-        once: true,
-      });
-      feather.replace();
+      //   // Initialize animations and icons
+      //   AOS.init({
+      //     duration: 800,
+      //     once: true,
+      //   });
+      //   feather.replace();
+      //
     </script>
   </body>
 </html>

@@ -35,3 +35,19 @@
   /* font-family: "Marck Script"; */
   font-size: 1.5rem;
 }
+
+.btn {
+  margin: 5px;
+}
+.btn:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.center-div {
+  text-align: center;
+}
+
+.buttons-align {
+  display: flex;
+  justify-content: space-evenly;
+}

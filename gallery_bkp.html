@@ -63,16 +63,126 @@
         >
           Gallery
         </h2>
-
-          <!-- Aici se introduc cardurile -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Pipe 1 -->
           <div
-            id="gallery-div"
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            class="group relative overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
           >
-            <!-- Pana aici se introduc cardurile -->
+            <img
+              src="Gallery/IMG-20250922-WA0001.jpg"
+              alt="Pipe 1"
+              class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+            >
+              <div class="text-center p-4">
+                <h3 class="text-white text-xl font-bold">Sailor Freehand</h3>
+                <p class="text-amber-200">Rough finish, medium bowl</p>
+              </div>
+            </div>
+          </div>
+          <!-- Pipe 2 -->
+          <div
+            class="group relative overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <img
+              src="Gallery/IMG-20250922-WA0004.jpg"
+              alt="Bent Dublin Pipe"
+              class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+            >
+              <div class="text-center p-4">
+                <h3 class="text-white text-xl font-bold">Collection Coin</h3>
+                <p class="text-amber-200">Brass Handcrafted Coin</p>
+              </div>
+            </div>
+          </div>
+          <!-- Pipe 3 -->
+          <div
+            class="group relative overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <img
+              src="Gallery/WhatsApp Image 2025-09-22 at 09.41.51_dc54c44f.jpg"
+              alt="Freehand Pipe"
+              class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+            >
+              <div class="text-center p-4">
+                <h3 class="text-white text-xl font-bold">Bulldog Pipe</h3>
+                <p class="text-amber-200">Short, Unique shape</p>
+              </div>
+            </div>
+          </div>
+          <!-- Pipe 4 -->
+          <div
+            class="group relative overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
+          >
+            <img
+              src="Gallery/WhatsApp Image 2025-09-22 at 09.41.56_7dfaaa78.jpg"
+              alt="Churchwarden Pipe"
+              class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+            >
+              <div class="text-center p-4">
+                <h3 class="text-white text-xl font-bold">Freehand Artisan</h3>
+                <p class="text-amber-200">Long bowl, cool smoke</p>
+              </div>
+            </div>
+          </div>
+          <!-- Pipe 5 -->
+          <div
+            class="group relative overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <img
+              src="Gallery/WhatsApp Image 2025-09-22 at 09.41.58_69a0ec2d.jpg"
+              alt="Rusticated Pipe"
+              class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+            >
+              <div class="text-center p-4">
+                <h3 class="text-white text-xl font-bold">Smoking Saves</h3>
+                <p class="text-amber-200">Bulletproof Cherry Wood</p>
+              </div>
+            </div>
+          </div>
+          <!-- Pipe 6 -->
+          <div
+            class="group relative overflow-hidden rounded-lg shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <img
+              src="Gallery/IMG-20250922-WA0006.jpg"
+              alt="Plateau Pipe"
+              class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
+            />
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
+            >
+              <div class="text-center p-4">
+                <h3 class="text-white text-xl font-bold">Classic Briar</h3>
+                <p class="text-amber-200">Natural, smooth edge</p>
+              </div>
+            </div>
           </div>
         </div>
-
         <div class="text-center mt-12">
           <a
             href="https://etsy.com"
@@ -213,7 +323,21 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="script-1.js"></script>
+    <script>
+      // Mobile menu toggle
+      document
+        .getElementById("menu-btn")
+        .addEventListener("click", function () {
+          const menu = document.getElementById("mobile-menu");
+          menu.classList.toggle("hidden");
+        });
+
+      // Initialize animations and icons
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+      feather.replace();
+    </script>
   </body>
 </html>

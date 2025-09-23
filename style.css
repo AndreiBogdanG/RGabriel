@@ -143,17 +143,6 @@ p {
   transform: rotateY(180deg);
 }
 
-button {
-  width: 100px;
-  height: 25px;
-  border-radius: 3px;
-  background-color: rgb(197, 201, 166);
-  box-shadow: -2px 2px 2px rgb(134, 132, 132);
-  position: absolute;
-  bottom: 5px;
-  left: 50px;
-}
-
 footer {
   margin-bottom: 50px;
   color: white;
@@ -190,14 +179,5 @@ footer {
     perspective: 1000px;
     /* margin-left: 10px; */
     margin-bottom: 30px;
-  }
-
-  button {
-    left: 33%;
-    bottom: 15px;
-  }
-
-  .smallFlag {
-    width: 50px;
   }
 }

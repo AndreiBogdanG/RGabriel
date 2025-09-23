@@ -3,7 +3,8 @@
       rgba(92, 64, 51, 0.7),
       rgba(92, 64, 51, 0.7)
     ),
-    url(/Gallery/IMG-20250922-WA0001.jpg);
+    url(/Gallery/bkground.jpg);
+  height: 500px;
   /* background-image: linear-gradient(rgba(92, 64, 51, 0.7), rgba(92, 64, 51, 0.7)), url('http://static.photos/wood/1200x630/42'); */
 }
 .briar-brown {
@@ -31,6 +32,6 @@
 }
 
 .menu_text {
-  font-family: "Marck Script";
+  /* font-family: "Marck Script"; */
   font-size: 1.5rem;
 }

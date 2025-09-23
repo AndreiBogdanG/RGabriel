@@ -21,3 +21,16 @@
 .border-briar {
   border-color: #5c4033;
 }
+
+#pipe_img {
+  width: 40px;
+}
+
+#signature {
+  height: 40px;
+}
+
+.menu_text {
+  font-family: "Marck Script";
+  font-size: 1.5rem;
+}

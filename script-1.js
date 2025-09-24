@@ -22,7 +22,7 @@ const pipe2 = {
 };
 
 const pipe3 = {
-  image: "Gallery/p3.jpg",
+  image: "Gallery/P2_1.jpg",
   title: "Popeye",
   textEn: `Rough finish, bold impression`,
   link: "https://etsy.com",

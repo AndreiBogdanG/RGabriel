@@ -4,8 +4,8 @@ const mainDiv = document.getElementById("gallery-div");
 const list = [];
 
 const pipe1 = {
-  image: "Gallery/p1.jpg",
-  title: "Bulldog",
+  image: "Gallery/LO.jpg",
+  title: "Acartar 1.01",
   textEn: `Smooth finish, cool smoke`,
   link: "https://etsy.com",
   btnTextEn: "Buy Now",
@@ -23,7 +23,7 @@ const pipe2 = {
 
 const pipe3 = {
   image: "Gallery/p3.jpg",
-  title: "Acartar 2.01",
+  title: "Popeye",
   textEn: `Rough finish, bold impression`,
   link: "https://etsy.com",
   btnTextEn: "Buy Now",

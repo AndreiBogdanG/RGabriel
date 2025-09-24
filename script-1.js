@@ -13,7 +13,7 @@ const pipe1 = {
 };
 
 const pipe2 = {
-  image: "Gallery/p1_1.jpg",
+  image: "Gallery/P1_1.jpg",
   title: "Sailor Craft",
   textEn: `Rough finish, great look`,
   link: "#",

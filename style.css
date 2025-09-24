@@ -3,7 +3,7 @@
       rgba(92, 64, 51, 0.7),
       rgba(92, 64, 51, 0.7)
     ),
-    url(/Gallery/bkground.jpg);
+    url(Gallery/bkground.jpg);
   height: 500px;
   /* background-image: linear-gradient(rgba(92, 64, 51, 0.7), rgba(92, 64, 51, 0.7)), url('http://static.photos/wood/1200x630/42'); */
 }
@@ -179,5 +179,16 @@ footer {
     perspective: 1000px;
     /* margin-left: 10px; */
     margin-bottom: 30px;
+  }
+
+  .hero-bg {
+    background-image: linear-gradient(
+        rgba(92, 64, 51, 0.7),
+        rgba(92, 64, 51, 0.7)
+      ),
+      url(Gallery/m_bkground.jpg);
+    background-size: cover; /* umple toată zona definită */
+    background-position: center; /* centrează imaginea */
+    background-repeat: no-repeat;
   }
 }

@@ -23,7 +23,7 @@ const pipe2 = {
 
 const pipe3 = {
   image: "Gallery/P2_1.jpg",
-  title: "Popeye",
+  title: "Bulldog",
   textEn: `Rough finish, bold impression`,
   link: "https://etsy.com",
   btnTextEn: "Buy Now",
@@ -31,8 +31,8 @@ const pipe3 = {
 };
 
 const pipe4 = {
-  image: "Gallery/p4.jpg",
-  title: "(Numele pipei)",
+  image: "Gallery/P3_1.jpg",
+  title: "Popeye",
   textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "#",
   btnTextEn: "SOLD",

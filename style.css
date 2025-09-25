@@ -44,12 +44,17 @@
 }
 
 .center-div {
-  /* text-align: center; */
+  text-align: center;
 }
 
 .buttons-align {
   display: flex;
   justify-content: space-evenly;
+}
+
+#product-div {
+  display: flex;
+  justify-content: center;
 }
 
 h1 {

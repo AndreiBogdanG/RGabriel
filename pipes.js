@@ -1,0 +1,196 @@
+const mesajEroare = {
+  item: "0",
+  image: "Gallery/error404.jpg",
+  title: "ERROR",
+  shortcut: "",
+  textEn: `Product not found`,
+  link: "gallery.html",
+  btnText1: "Back",
+  btnText2: "Back",
+  dataAosDelay: "0",
+};
+
+const pipe1 = {
+  item: "1",
+  image: "Gallery/LO.jpg",
+  title: "Acartar 1.01",
+  shortcut: "",
+  textEn: `Smooth finish, cool smoke`,
+  link: "https://etsy.com",
+  btnText1: "Details",
+  btnText2: "Buy Now",
+  dataAosDelay: "0",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe2 = {
+  item: "2",
+  image: "Gallery/P1_1.jpg",
+  title: "Sailor Craft",
+  shortcut: "",
+  textEn: `Rough finish, great look`,
+  link: "#",
+  btnText1: "Details",
+  btnText2: "SOLD",
+  dataAosDelay: "200",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe3 = {
+  item: "3",
+  image: "Gallery/P2_1.jpg",
+  title: "Bulldog",
+  shortcut: "",
+  textEn: `Rough finish, bold impression`,
+  link: "https://etsy.com",
+  btnText1: "Details",
+  btnText2: "Buy Now",
+  dataAosDelay: "300",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe4 = {
+  item: "4",
+  image: "Gallery/P3_1.jpg",
+  title: "Popeye",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "#",
+  btnText1: "Details",
+  btnText2: "SOLD",
+  dataAosDelay: "0",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe5 = {
+  item: "5",
+  image: "Gallery/p5.jpg",
+  title: "(Numele pipei)",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "#",
+  btnText1: "Details",
+  btnText2: "SOLD",
+  dataAosDelay: "200",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe6 = {
+  item: "6",
+  image: "Gallery/p6.jpg",
+  title: "(Numele pipei)",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "#",
+  btnText1: "Details",
+  btnText2: "SOLD",
+  dataAosDelay: "300",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe7 = {
+  item: "7",
+  image: "Gallery/p7.jpg",
+  title: "(Numele pipei)",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "https://etsy.com",
+  btnText1: "Details",
+  btnText2: "Buy Now",
+  dataAosDelay: "0",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe8 = {
+  item: "8",
+  image: "Gallery/p8.jpg",
+  title: "(Numele pipei)",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "https://etst.com",
+  btnText1: "Details",
+  btnText2: "Buy Now",
+  dataAosDelay: "200",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe9 = {
+  item: "9",
+  image: "Gallery/p9.jpg",
+  title: "(Numele pipei)",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "#",
+  btnText1: "Details",
+  btnText2: "SOLD",
+  dataAosDelay: "300",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe10 = {
+  item: "10",
+  image: "Gallery/p10.jpg",
+  title: "(Numele pipei)",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "#",
+  btnText1: "Details",
+  btnText2: "SOLD",
+  dataAosDelay: "0",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe11 = {
+  item: "11",
+  image: "Gallery/p11.jpg",
+  title: "(Numele pipei)",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "#",
+  btnText1: "Details",
+  btnText2: "SOLD",
+  dataAosDelay: "200",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const pipe12 = {
+  item: "12",
+  image: "Gallery/p12.jpg",
+  title: "(Numele pipei)",
+  shortcut: "",
+  textEn: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  link: "#",
+  btnText1: "Details",
+  btnText2: "SOLD",
+  dataAosDelay: "300",
+  fullDescription:
+    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+};
+
+const list = [
+  pipe1,
+  pipe2,
+  pipe3,
+  pipe4,
+  pipe5,
+  pipe6,
+  pipe7,
+  pipe8,
+  pipe9,
+  pipe10,
+  pipe11,
+  pipe12,
+];
+
+export default list;

@@ -136,8 +136,7 @@ newProductDiv.innerHTML = `
           <a
             href="${list[item].link}"
             class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
-            ${list[item].btnText2}
-            onclick="${onClickProp}">
+            onclick="${onClickProp}">${list[item].btnText2}
           </a>
           <a
             href="gallery.html"

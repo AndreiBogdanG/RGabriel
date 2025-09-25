@@ -16,7 +16,7 @@ AOS.init({
 feather.replace();
 
 //create the cards:
-for (let i = 1; i < list.length; i++) {
+for (let i = 0; i < list.length; i++) {
   const flipCardDiv = document.createElement("div");
   flipCardDiv.style.height = "100%";
   flipCardDiv.id = `flipDiv${i + 1}`;
@@ -71,27 +71,29 @@ if (item == 0) {
     "group relative overflow-hidden rounded-lg shadow-lg";
 }
 
+console.log(item);
+
 newProductDiv.setAttribute("data-aos", "fade-up");
 newProductDiv.setAttribute("data-aos-delay", `${list[item].dataAosDelay}`);
 
 newProductDiv.innerHTML = ` 
            <div class="text-3xl md:text-4xl font-bold text-center text-briar mb-16">
-           ${list[item].title}
+           ${list[item - 1].title}
            </div>
            <div class="text-2xl md:text-2xl font-bold text-center text-briar mb-16">
-                ${list[item].fullDescription}                
+                ${list[item - 1].fullDescription}                
                 </div>
 
             <img
-              src="${list[item].image}"
+              src="${list[item - 1].image}"
               alt="Pipe 1"
               class="fullImage"
             />        
           <div class="center-div">
           <a
-            href="${list[item].link}"
+            href="${list[item - 1].link}"
             class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
-            >${list[item].btnText2}
+            >${list[item - 1].btnText2}
           </a>
           <a
             href="gallery.html"

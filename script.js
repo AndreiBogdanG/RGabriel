@@ -16,7 +16,7 @@ AOS.init({
 feather.replace();
 
 //create the cards:
-for (let i = 0; i < list.length; i++) {
+for (let i = 1; i < list.length; i++) {
   const flipCardDiv = document.createElement("div");
   flipCardDiv.style.height = "100%";
   flipCardDiv.id = `flipDiv${i + 1}`;
@@ -36,7 +36,7 @@ for (let i = 0; i < list.length; i++) {
             >
               <div class="text-center p-4">
                 <h3 class="text-white text-xl font-bold">${list[i].title}</h3>
-                <p class="text-amber-200">${list[i].textEn}</p>
+                <p class="text-amber-200">${list[i].shortDescription}</p>
                 
                     <a href="product.html?item=${list[i].item}" class="btn inline-block briar-light hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition">
                    ${list[i].btnText1}</a>
@@ -78,22 +78,51 @@ newProductDiv.setAttribute("data-aos-delay", `${list[item].dataAosDelay}`);
 
 newProductDiv.innerHTML = ` 
            <div class="text-3xl md:text-4xl font-bold text-center text-briar mb-16">
-           ${list[item - 1].title}
+           ${list[item].title}
            </div>
-           <div class="text-2xl md:text-2xl font-bold text-center text-briar mb-16">
-                ${list[item - 1].fullDescription}                
+           <div class="itemDescription">
+                ${list[item].fullDescription}                
                 </div>
-
-            <img
-              src="${list[item - 1].image}"
+          <div class="product-images-div">
+            <img 
+              src="${list[item].image}"
               alt="Pipe 1"
               class="fullImage"
-            />        
+            />      
+            <img 
+              src="${list[item].image1}"
+              alt="Pipe 2"
+              class="fullImage"
+            />      
+            <img 
+              src="${list[item].image2}"
+              alt="Pipe 3"
+              class="fullImage"
+            />      
+            <img 
+              src="${list[item].image3}"
+              alt="Pipe 4"
+              class="fullImage"
+            />      
+            <img 
+              src="${list[item].image4}"
+              alt="Pipe 5"
+              class="fullImage"
+            />      
+            <img 
+              src="${list[item].image5}"
+              alt="Pipe 6"
+              class="fullImage"
+            />      
+            
+
+            </div>
+
           <div class="center-div">
           <a
-            href="${list[item - 1].link}"
+            href="${list[item].link}"
             class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
-            >${list[item - 1].btnText2}
+            >${list[item].btnText2}
           </a>
           <a
             href="gallery.html"

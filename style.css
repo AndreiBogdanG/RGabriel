@@ -47,6 +47,19 @@
   text-align: center;
 }
 
+.product-images-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 coloane egale */
+  gap: 10px;
+  margin: 1rem 0 1rem 0;
+}
+
+.itemDescription {
+  font-size: 1.5rem;
+  text-align: center;
+  /* text-indent: 30px; */
+}
+
 .buttons-align {
   display: flex;
   justify-content: space-evenly;
@@ -55,6 +68,19 @@
 #product-div {
   display: flex;
   justify-content: center;
+}
+
+.fullImage {
+  width: 30vw;
+  border-radius: 20px;
+  margin-top: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.fullImage:hover {
+  width: 100%;
+  transform: scale(1.5);
+  z-index: 1;
 }
 
 h1 {
@@ -165,6 +191,7 @@ footer {
   .flip-card-back {
     font-size: 14px;
   }
+
   footer {
     font-size: small;
     margin-bottom: 100px;
@@ -184,6 +211,10 @@ footer {
     perspective: 1000px;
     /* margin-left: 10px; */
     margin-bottom: 30px;
+  }
+
+  .itemDescription {
+    font-size: 1rem;
   }
 
   .hero-bg {

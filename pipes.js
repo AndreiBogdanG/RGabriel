@@ -21,7 +21,7 @@ const pipe1 = {
   shortDescription: `Smooth finish, cool smoke`,
   link: "https://etsy.com",
   btnText1: "Details",
-  btnText2: "Buy Now",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
   fullDescription: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br><br>  
     Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!`,
@@ -39,7 +39,7 @@ const pipe2 = {
   shortDescription: `Rough finish, great look`,
   link: "#",
   btnText1: "Details",
-  btnText2: "SOLD",
+  btnText2: "Not Available!",
   dataAosDelay: "200",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -57,7 +57,7 @@ const pipe3 = {
   shortDescription: `Rough finish, bold impression`,
   link: "https://etsy.com",
   btnText1: "Details",
-  btnText2: "Buy Now",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "300",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -75,7 +75,7 @@ const pipe4 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "#",
   btnText1: "Details",
-  btnText2: "SOLD",
+  btnText2: "Not Available!",
   dataAosDelay: "0",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -93,7 +93,7 @@ const pipe5 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "#",
   btnText1: "Details",
-  btnText2: "SOLD",
+  btnText2: "Not Available!",
   dataAosDelay: "200",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -111,7 +111,7 @@ const pipe6 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "#",
   btnText1: "Details",
-  btnText2: "SOLD",
+  btnText2: "Not Available!",
   dataAosDelay: "300",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -129,7 +129,7 @@ const pipe7 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "https://etsy.com",
   btnText1: "Details",
-  btnText2: "Buy Now",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -147,7 +147,7 @@ const pipe8 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "https://etst.com",
   btnText1: "Details",
-  btnText2: "Buy Now",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -165,7 +165,7 @@ const pipe9 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "#",
   btnText1: "Details",
-  btnText2: "SOLD",
+  btnText2: "Not Available!",
   dataAosDelay: "300",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -183,7 +183,7 @@ const pipe10 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "#",
   btnText1: "Details",
-  btnText2: "SOLD",
+  btnText2: "Not Available!",
   dataAosDelay: "0",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -201,7 +201,7 @@ const pipe11 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "#",
   btnText1: "Details",
-  btnText2: "SOLD",
+  btnText2: "Not Available!",
   dataAosDelay: "200",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
@@ -219,7 +219,7 @@ const pipe12 = {
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
   link: "#",
   btnText1: "Details",
-  btnText2: "SOLD",
+  btnText2: "Not Available!",
   dataAosDelay: "300",
   fullDescription:
     "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",

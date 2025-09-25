@@ -17,6 +17,14 @@ feather.replace();
 
 //create the cards:
 for (let i = 1; i < list.length; i++) {
+  //Verifica daca linkul e "#" si daca da, adauga proprietarea "onclick = "return false"
+  let onClickProp = "";
+  if ((list[i].link = "#")) {
+    onClickProp = "return false";
+  } else {
+    onClickProp = "";
+  }
+
   const flipCardDiv = document.createElement("div");
   flipCardDiv.style.height = "100%";
   flipCardDiv.id = `flipDiv${i + 1}`;
@@ -40,7 +48,7 @@ for (let i = 1; i < list.length; i++) {
                 
                     <a href="product.html?item=${list[i].item}" class="btn inline-block briar-light hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition">
                    ${list[i].btnText1}</a>
-                    <a href="${list[i].link}" class="btn inline-block briar-light hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition">
+                    <a href="${list[i].link}" onclick = "${onClickProp}" class="btn inline-block briar-light hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition">
                    ${list[i].btnText2}</a>
                 
               </div>
@@ -71,10 +79,17 @@ if (item == 0) {
     "group relative overflow-hidden rounded-lg shadow-lg";
 }
 
-console.log(item);
-
 newProductDiv.setAttribute("data-aos", "fade-up");
 newProductDiv.setAttribute("data-aos-delay", `${list[item].dataAosDelay}`);
+
+// Verifica daca linkul e "#" si daca da, adauga un onclick="return false"
+let onClickProp = "";
+
+if ((list[item].link = "#")) {
+  onClickProp = "return false";
+} else {
+  onClickProp = "";
+}
 
 newProductDiv.innerHTML = ` 
            <div class="text-3xl md:text-4xl font-bold text-center text-briar mb-16">
@@ -113,8 +128,7 @@ newProductDiv.innerHTML = `
               src="${list[item].image5}"
               alt="Pipe 6"
               class="fullImage"
-            />      
-            
+            />                  
 
             </div>
 
@@ -122,7 +136,8 @@ newProductDiv.innerHTML = `
           <a
             href="${list[item].link}"
             class="btn inline-block briar-brown hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition"
-            >${list[item].btnText2}
+            ${list[item].btnText2}
+            onclick="${onClickProp}">
           </a>
           <a
             href="gallery.html"

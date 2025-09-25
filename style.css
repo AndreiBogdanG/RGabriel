@@ -39,6 +39,7 @@
 .btn {
   margin: 5px;
 }
+
 .btn:hover {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -83,14 +84,15 @@
   z-index: 1;
 }
 
-h1 {
+/* h1 {
   margin-bottom: 20px;
   color: white;
 }
+
 body {
   background-color: black;
-  /* text-align: center; */
-}
+} */
+
 #logo {
   width: 300px;
   margin-top: 30px;
@@ -221,6 +223,15 @@ footer {
     width: 100%;
     transform: scale(2);
     z-index: 1;
+  }
+
+  .product-images-div {
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 1px; */
+    /* margin: 1rem 0 1rem 0; */
+    padding: 4rem;
+    justify-items: center;
+    align-items: center;
   }
 
   .hero-bg {

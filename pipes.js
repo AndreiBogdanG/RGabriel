@@ -7,6 +7,7 @@ const mesajEroare = {
   btnText1: "Back",
   btnText2: "Back",
   dataAosDelay: "0",
+  fullDescription: ``,
 };
 
 const pipe1 = {

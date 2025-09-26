@@ -89,6 +89,10 @@ body {
   /* text-indent: 30px; */
 }
 
+.storyParagraphContainer {
+  padding-right: 30px;
+}
+
 .buttons-align {
   display: flex;
   justify-content: space-evenly;
@@ -142,10 +146,6 @@ p {
   color: black;
 }
 
-.storySectionPart {
-  /* margin: 4rem; */
-}
-
 footer {
   margin-bottom: 50px;
   color: white;
@@ -180,6 +180,10 @@ footer {
 
   .small-image {
     width: 100px;
+  }
+
+  .storyParagraphContainer {
+    padding-right: 0;
   }
 
   .hero-bg {

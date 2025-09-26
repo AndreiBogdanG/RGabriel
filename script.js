@@ -82,6 +82,12 @@ newProductDiv.setAttribute("data-aos-delay", `${list[item].dataAosDelay}`);
 // Verifică dacă linkul este "#"
 let onClickProp = "";
 
+if (list[item].link === "#") {
+  onClickProp = "return false";
+} else {
+  onClickProp = "";
+}
+
 const errorDiv = `
   <div class="text-3xl md:text-4xl font-bold text-center text-briar mb-16">
     <div class="product-div">                  
@@ -165,14 +171,6 @@ const noErrorDiv = `
     </a>    
   </div>
 `;
-
-if (list[item].link === "#") {
-  onClickProp = "return false";
-} else {
-  onClickProp = "";
-}
-
-console.log(item);
 
 if (list[item] && item !== "0") {
   newProductDiv.className =

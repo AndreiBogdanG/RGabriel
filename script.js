@@ -108,6 +108,35 @@ const errorDiv = `
   </div>
 `;
 
+// Genereaza divul cu imagini mici in functie de cate sunt:
+// Generează imaginile mici doar dacă există în list[item]
+let generatedSmallImages = "";
+
+// Adaugă întotdeauna prima imagine (principală)
+generatedSmallImages += `
+  <img 
+    src="${list[item].image}" 
+    alt="Main Image"  
+    onerror="this.onerror=null; this.src='Gallery/placeholder.jpg'"
+    class="small-image cursor-pointer w-1/6" />
+`;
+
+// Verifică dinamic image1 până la image10
+for (let i = 1; i <= 10; i++) {
+  const key = `image${i}`;
+  if (list[item][key]) {
+    generatedSmallImages += `
+      <img 
+        src="${list[item][key]}" 
+        alt="Pipe ${i + 1}"   
+        onerror="this.onerror=null; this.src='Gallery/placeholder.jpg'"
+        class="small-image cursor-pointer w-1/6" />
+    `;
+  }
+}
+
+// Creeaza noErrorDiv
+
 const noErrorDiv = `
   <div class="text-3xl md:text-4xl font-bold text-center text-briar mb-16">
     ${list[item].title}
@@ -118,37 +147,8 @@ const noErrorDiv = `
 
   <!-- Imagini mici pe un singur rând -->
   <div class="product-images-div flex overflow-x-auto space-x-4 mb-8">
-    <img 
-      src="${list[item].image}" 
-      alt="Pipe 1"  
-      onerror="'this.onerror=null'; this.src='Gallery/placeholder.jpg'"
-      class="small-image cursor-pointer w-1/6" />
-    <img 
-      src="${list[item].image1}" 
-      alt="Pipe 2"   
-      onerror="'this.onerror=null'; this.src='Gallery/placeholder.jpg'"
-      class="small-image cursor-pointer w-1/6" />
-    <img 
-      src="${list[item].image2}" 
-      alt="Pipe 3"  
-      onerror="'this.onerror=null'; this.src='Gallery/placeholder.jpg'"
-      class="small-image cursor-pointer w-1/6" />
-    <img 
-      src="${list[item].image3}" 
-      alt="Pipe 4"   
-      onerror="'this.onerror=null'; this.src='Gallery/placeholder.jpg'"
-      class="small-image cursor-pointer w-1/6" />
-    <img 
-      src="${list[item].image4}" 
-      alt="Pipe 5"   
-      onerror="'this.onerror=null'; this.src='Gallery/placeholder.jpg'"
-      class="small-image cursor-pointer w-1/6" />
-    <img 
-      src="${list[item].image5}" 
-      alt="Pipe 6"   
-      onerror="'this.onerror=null'; this.src='Gallery/placeholder.jpg'"
-      class="small-image cursor-pointer w-1/6" />
-  </div>
+  ${generatedSmallImages}
+</div>
 
   <!-- Imagine mare -->
   <div class="large-image-container mb-8">

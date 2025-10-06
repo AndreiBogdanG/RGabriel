@@ -24,8 +24,9 @@ const pipe1 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
-  fullDescription: `   Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br><br>  
-    Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!`,
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe2 = {
@@ -42,8 +43,9 @@ const pipe2 = {
   btnText1: "Details",
   btnText2: "Not Available!",
   dataAosDelay: "200",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe3 = {
@@ -60,8 +62,9 @@ const pipe3 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "300",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe4 = {
@@ -78,8 +81,9 @@ const pipe4 = {
   btnText1: "Details",
   btnText2: "Not Available!",
   dataAosDelay: "0",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe5 = {
@@ -96,8 +100,9 @@ const pipe5 = {
   btnText1: "Details",
   btnText2: "Not Available!",
   dataAosDelay: "200",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe6 = {
@@ -114,8 +119,9 @@ const pipe6 = {
   btnText1: "Details",
   btnText2: "Not Available!",
   dataAosDelay: "300",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe7 = {
@@ -132,8 +138,9 @@ const pipe7 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe8 = {
@@ -150,8 +157,9 @@ const pipe8 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe9 = {
@@ -168,8 +176,9 @@ const pipe9 = {
   btnText1: "Details",
   btnText2: "Not Available!",
   dataAosDelay: "300",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe10 = {
@@ -186,8 +195,9 @@ const pipe10 = {
   btnText1: "Details",
   btnText2: "Not Available!",
   dataAosDelay: "0",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe11 = {
@@ -204,8 +214,9 @@ const pipe11 = {
   btnText1: "Details",
   btnText2: "Not Available!",
   dataAosDelay: "200",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const pipe12 = {
@@ -222,8 +233,9 @@ const pipe12 = {
   btnText1: "Details",
   btnText2: "Not Available!",
   dataAosDelay: "300",
-  fullDescription:
-    "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui dicta soluta eveniet numquam temporibus illum praesentium laudantium excepturi quisquam aspernatur sint voluptatibus aperiam eum cumque, rem quas dignissimos veniam, ea fugiat consequuntur? Illo temporibus ab libero doloremque officia blanditiis quaerat, laboriosam modi sint repudiandae iusto saepe nulla dignissimos quas quasi vero, sunt eius, eveniet dolores dolor animi minima assumenda! Dolores possimus commodi tempora perspiciatis, magnam aliquid sit laudantium, vel cumque esse fuga repellendus, nobis dolor quo aperiam? Nobis quaerat ut repellendus aspernatur voluptas facere quia veritatis fugiat dolore voluptate? Architecto reprehenderit similique placeat accusamus a reiciendis veniam explicabo modi molestiae!",
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
 };
 
 const list = [

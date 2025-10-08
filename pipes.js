@@ -12,14 +12,14 @@ const mesajEroare = {
 
 const pipe1 = {
   item: "1",
-  image: "Gallery/LO.jpg",
-  image1: "Gallery/LO1.jpg",
-  image2: "Gallery/LO2.jpg",
-  image3: "Gallery/LO3.jpg",
-  image4: "Gallery/LO4.jpg",
-  image5: "Gallery/LO5.jpg",
-  title: "Acartar 1.01",
-  shortDescription: `Smooth finish, cool smoke`,
+  image: "Gallery/Acartar/Acartar.jpg",
+  image1: "",
+  image2: "",
+  image3: "",
+  image4: "",
+  image5: "",
+  title: "Acartar",
+  shortDescription: `Oak Wood Smoking Pipe`,
   link: "https://etsy.com",
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
@@ -31,17 +31,17 @@ const pipe1 = {
 
 const pipe2 = {
   item: "2",
-  image: "Gallery/featured1.jpg",
+  image: "Gallery/Cavour/Cavour.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "Sailor Craft",
-  shortDescription: `Rough finish, great look`,
-  link: "#",
+  title: "Cavour",
+  shortDescription: `Applewood Smoking Pipe`,
+  link: "https://etsy.com",
   btnText1: "Details",
-  btnText2: "Not Available!",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -50,14 +50,14 @@ const pipe2 = {
 
 const pipe3 = {
   item: "3",
-  image: "Gallery/P2_1.jpg",
+  image: "Gallery/Corso/Corso.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "Bulldog",
-  shortDescription: `Rough finish, bold impression`,
+  title: "Corso",
+  shortDescription: `Cherry Wood Smoking Pipe`,
   link: "https://etsy.com",
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
@@ -69,17 +69,17 @@ const pipe3 = {
 
 const pipe4 = {
   item: "4",
-  image: "Gallery/P3_1.jpg",
+  image: "Gallery/Dante/Dante.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "Popeye",
-  shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
-  link: "#",
+  title: "Dante",
+  shortDescription: `Cherry Wood Smoking Pipe`,
+  link: "https://etsy.com",
   btnText1: "Details",
-  btnText2: "Not Available!",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -88,17 +88,17 @@ const pipe4 = {
 
 const pipe5 = {
   item: "5",
-  image: "Gallery/P1_1.jpg",
+  image: "Gallery/Fortis/Fortis.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "(Numele pipei)",
-  shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
-  link: "#",
+  title: "Fortis",
+  shortDescription: `Cherry Wood Smoking Pipe`,
+  link: "https://etsy.com",
   btnText1: "Details",
-  btnText2: "Not Available!",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -107,17 +107,17 @@ const pipe5 = {
 
 const pipe6 = {
   item: "6",
-  image: "Gallery/p6.jpg",
+  image: "Gallery/Lido/Lido.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "(Numele pipei)",
-  shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
-  link: "#",
+  title: "Lido",
+  shortDescription: `Cherry Wood Smoking Pipe`,
+  link: "https://etsy.com",
   btnText1: "Details",
-  btnText2: "Not Available!",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "300",
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -126,14 +126,14 @@ const pipe6 = {
 
 const pipe7 = {
   item: "7",
-  image: "Gallery/p7.jpg",
+  image: "Gallery/Notte/Notte.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "(Numele pipei)",
-  shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  title: "Notte",
+  shortDescription: `Padouk Wood Smoking Pipe`,
   link: "https://etsy.com",
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
@@ -145,14 +145,14 @@ const pipe7 = {
 
 const pipe8 = {
   item: "8",
-  image: "Gallery/p8.jpg",
+  image: "Gallery/Vetra/Vetra.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "(Numele pipei)",
-  shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  title: "Vetra",
+  shortDescription: `Cherry Wood and Boxwood Smoking Pipe`,
   link: "https://etst.com",
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
@@ -164,21 +164,21 @@ const pipe8 = {
 
 const pipe9 = {
   item: "9",
-  image: "Gallery/p9.jpg",
+  image: "Gallery/LeatherPouch/LeatherPouch.jpg",
   image1: "",
   image2: "",
   image3: "",
   image4: "",
   image5: "",
-  title: "(Numele pipei)",
-  shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
-  link: "#",
+  title: "Leather Pouch",
+  shortDescription: `Natural Leather Pipe and Tobacco Pouch`,
+  link: "https://etsy.com",
   btnText1: "Details",
-  btnText2: "Not Available!",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "300",
-  fullDescription: `Handcrafted Elegance 
+  fullDescription: `Crafted for the Journey 
  <br><br>  
-    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
+    Each leather pouch is handmade with care and intention, shaped to hold not just tobacco and tools, but the quiet ritual that accompanies them. The scent of genuine leather, the softness gained with time, the fine stitching — all speak of craftsmanship and patience. No two pieces are ever alike. Each bears the marks of the artisan’s hands and the natural grain of the leather — unique, enduring, personal.More than a simple case, it is a companion for the thoughtful smoker — carrying the warmth of tradition and the spirit of slow, mindful living. Whether on the road or resting on a desk, it tells a story of elegance, simplicity, and authenticity.`,
 };
 
 const pipe10 = {
@@ -249,9 +249,9 @@ const list = [
   pipe7,
   pipe8,
   pipe9,
-  pipe10,
-  pipe11,
-  pipe12,
+  // pipe10,
+  // pipe11,
+  // pipe12,
 ];
 
 export default list;

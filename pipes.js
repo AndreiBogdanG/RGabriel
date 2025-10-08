@@ -31,7 +31,7 @@ const pipe1 = {
 
 const pipe2 = {
   item: "2",
-  image: "Gallery/P1_1.jpg",
+  image: "Gallery/featured1.jpg",
   image1: "",
   image2: "",
   image3: "",
@@ -88,7 +88,7 @@ const pipe4 = {
 
 const pipe5 = {
   item: "5",
-  image: "Gallery/p5.jpg",
+  image: "Gallery/P1_1.jpg",
   image1: "",
   image2: "",
   image3: "",

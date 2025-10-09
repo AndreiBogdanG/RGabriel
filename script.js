@@ -49,13 +49,11 @@ for (let i = 1; i < list.length; i++) {
       class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
     /> 
 
-
-
         
     <div
       class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
     >
-      <div class="mobile-text-center p-4">
+      <div class="text-center mobile-text-center p-4">
         <h3 class="text-white text-xl font-bold">${list[i].title}</h3>
         <p class="text-amber-200">${list[i].shortDescription}</p>
         <a href="product.html?item=${list[i].item}" class="btn inline-block briar-light hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition">
@@ -126,13 +124,13 @@ let generatedSmallImages = "";
 generatedSmallImages += `
   <img 
     src="${list[item].image}" 
-    alt="Main Image"  
+    alt="Image"  
     onerror="this.onerror=null; this.src='Gallery/placeholder.jpg'"
     class="small-image cursor-pointer w-1/6" />
 `;
 
-// Verifică dinamic image1 până la image10
-for (let i = 1; i <= 10; i++) {
+// Verifică dinamic image1 până la image15
+for (let i = 1; i <= 15; i++) {
   const key = `image${i}`;
   if (list[item][key]) {
     generatedSmallImages += `

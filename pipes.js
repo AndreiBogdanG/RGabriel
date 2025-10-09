@@ -153,7 +153,7 @@ const pipe8 = {
   image5: "",
   title: "Vetra",
   shortDescription: `Cherry Wood and Boxwood Smoking Pipe`,
-  link: "https://etst.com",
+  link: "https://etsy.com",
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
@@ -191,7 +191,7 @@ const pipe10 = {
   image5: "",
   title: "Collection Coin",
   shortDescription: `Collection Coin`,
-  link: "httpsȘ//etsy.com",
+  link: "https//etsy.com",
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
@@ -221,7 +221,7 @@ const pipe11 = {
 
 const pipe12 = {
   item: "12",
-  image: "Gallery/p12.jpg",
+  image: "",
   image1: "",
   image2: "",
   image3: "",

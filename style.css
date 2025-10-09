@@ -157,7 +157,7 @@ footer {
 #gallery-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 coloane */
-  gap: 2rem; /* spațiu între carduri */
+  gap: 2rem;
 }
 
 #gallery-div > div {
@@ -241,11 +241,12 @@ footer {
 
   /* De sters daca nu merge: */
   #gallery-div {
-    grid-template-columns: repeat(
+    /* grid-template-columns: repeat(
       3,
       1fr
-    ); /* Forțează în continuare 3 coloane */
-    overflow-x: auto;
+    ); 
+    overflow-x: auto; */
+    gap: 1rem;
   }
 
   #gallery-div > div {

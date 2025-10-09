@@ -40,7 +40,7 @@ for (let i = 1; i < list.length; i++) {
   flipCardDiv.innerHTML = ` 
     <img
       src="${list[i].image}"
-      alt="Pipe 1"
+      alt="Product Image"
       class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
     />
     <div
@@ -129,7 +129,7 @@ for (let i = 1; i <= 10; i++) {
       <img 
         src="${list[item][key]}" 
         alt="Pipe ${i + 1}"   
-        onerror="this.onerror=null; this.src='Gallery/placeholder.jpg'"
+        onerror="this.onerror=null; this.src='ery/placeholder.jpg'"
         class="small-image cursor-pointer w-1/6" />
     `;
   }

@@ -24,7 +24,7 @@ function changeLargeImage(imageSrc) {
 for (let i = 1; i < list.length; i++) {
   // Verifica daca linkul e "#" si daca da, adauga proprietatea "onclick = return false"
   let onClickProp = "";
-  if ((list[i].link = "#")) {
+  if (list[i].link === "#") {
     onClickProp = "return false";
   } else {
     onClickProp = "";
@@ -32,17 +32,26 @@ for (let i = 1; i < list.length; i++) {
 
   const flipCardDiv = document.createElement("div");
   flipCardDiv.style.height = "100%";
-  flipCardDiv.id = `flipDiv${i + 1}`;
+  // flipCardDiv.id = `flipDiv${i + 1}`;
   flipCardDiv.className = "group relative overflow-hidden rounded-lg shadow-lg";
   flipCardDiv.setAttribute("data-aos", "fade-up");
   flipCardDiv.setAttribute("data-aos-delay", `${list[i].dataAosDelay}`);
-
+  flipCardDiv.setAttribute(
+    "onclick",
+    `window.location.href='product.html?item=${list[i].item}';`
+  );
   flipCardDiv.innerHTML = ` 
-    <img
+    
+  
+  <img
       src="${list[i].image}"
       alt="Product Image"
       class="w-full h-64 object-cover transition duration-500 group-hover:scale-105"
-    />
+    /> 
+
+
+
+        
     <div
       class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
     >
@@ -57,6 +66,7 @@ for (let i = 1; i < list.length; i++) {
         </a>
       </div>
     </div>
+    
   `;
   if (mainDiv) {
     mainDiv.appendChild(flipCardDiv);

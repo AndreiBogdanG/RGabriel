@@ -252,7 +252,7 @@ footer {
     width: 100%; /* asigură dimensiuni vizibile */
   }
 
-  .text-center {
+  .mobile-text-center {
     display: none;
   }
 }

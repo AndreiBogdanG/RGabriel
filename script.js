@@ -55,7 +55,7 @@ for (let i = 1; i < list.length; i++) {
     <div
       class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
     >
-      <div class="text-center p-4">
+      <div class="mobile-text-center p-4">
         <h3 class="text-white text-xl font-bold">${list[i].title}</h3>
         <p class="text-amber-200">${list[i].shortDescription}</p>
         <a href="product.html?item=${list[i].item}" class="btn inline-block briar-light hover:briar-dark text-white px-8 py-3 rounded-full text-lg font-medium transition">

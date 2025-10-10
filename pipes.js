@@ -24,6 +24,16 @@ const pipe1 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
+  specs: {
+    length: "150mm",
+    height: "55mm",
+    bowlDiameter: "35mm",
+    chamberDiameter: "18mm",
+    chamberDepth: "38mm",
+    weight: "61gr",
+    wood: "Oak",
+    stem: "Acrylic",
+  },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
     Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
@@ -43,6 +53,16 @@ const pipe2 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
+  specs: {
+    length: "170mm",
+    height: "60mm",
+    bowlDiameter: "32mm",
+    chamberDiameter: "18mm",
+    chamberDepth: "30mm",
+    weight: "32gr",
+    wood: "Applewood",
+    stem: "Acrylic",
+  },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
     Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
@@ -62,6 +82,16 @@ const pipe3 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "300",
+  specs: {
+    length: "120mm",
+    height: "40mm",
+    bowlDiameter: "40mm",
+    chamberDiameter: "20mm",
+    chamberDepth: "20mm",
+    weight: "35gr",
+    wood: "Cherry Wood",
+    stem: "Acrylic",
+  },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
     Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
@@ -81,6 +111,16 @@ const pipe4 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
+  specs: {
+    length: "140mm",
+    height: "65mm",
+    bowlDiameter: "35mm",
+    chamberDiameter: "20mm",
+    chamberDepth: "38mm",
+    weight: "33gr",
+    wood: "Cherry Wood",
+    stem: "Acrylic",
+  },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
     Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
@@ -100,6 +140,16 @@ const pipe5 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
+  specs: {
+    length: "145mm",
+    height: "55mm",
+    bowlDiameter: "35mm",
+    chamberDiameter: "18mm",
+    chamberDepth: "35mm",
+    weight: "50gr",
+    wood: "Cherry Wood",
+    stem: "Acrylic",
+  },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
     Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
@@ -119,6 +169,16 @@ const pipe6 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "300",
+  specs: {
+    length: "145mm",
+    height: "60mm",
+    bowlDiameter: "35mm",
+    chamberDiameter: "20mm",
+    chamberDepth: "35mm",
+    weight: "28gr",
+    wood: "Cherry Wood",
+    stem: "Acrylic",
+  },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
     Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
@@ -138,6 +198,16 @@ const pipe7 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "0",
+  specs: {
+    length: "135mm",
+    height: "55mm",
+    bowlDiameter: "34mm",
+    chamberDiameter: "18mm",
+    chamberDepth: "35mm",
+    weight: "46gr",
+    wood: "Padouk",
+    stem: "Acrylic",
+  },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
     Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
@@ -157,6 +227,16 @@ const pipe8 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
+  specs: {
+    length: "135mm",
+    height: "50mm",
+    bowlDiameter: "35mm",
+    chamberDiameter: "18mm",
+    chamberDepth: "32mm",
+    weight: "32gr",
+    wood: "Cherry Wood and Boxwood",
+    stem: "Acrylic",
+  },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
     Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,

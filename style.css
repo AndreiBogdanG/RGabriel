@@ -63,6 +63,18 @@ body {
   margin: 1rem 0 1rem 0;
 }
 
+#bigSpecsDiv {
+  padding: 0 2rem 2rem 2rem;
+}
+
+#specsDiv {
+  background-color: rgb(239, 241, 241);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 2rem;
+  /* gap: 2rem; */
+}
+
 .small-image {
   width: 150px; /* Dimensiune fixă pentru imaginile mici */
   height: auto;
@@ -88,7 +100,17 @@ body {
 .itemDescription {
   font-size: 1.5rem;
   text-align: center;
+  margin: 0 1rem 0 1rem;
   /* text-indent: 30px; */
+}
+
+.specText {
+  color: #523934;
+}
+
+.rightSpecsText,
+.middleSpecsText {
+  padding-left: 7rem;
 }
 
 .storyParagraphContainer {
@@ -218,6 +240,22 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
     margin: 1rem 0 1rem 0;
+  }
+
+  #bigSpecsDiv {
+    text-align: center;
+  }
+
+  .rightSpecsText,
+  .middleSpecsText {
+    padding-left: 0;
+  }
+
+  #specsDiv {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 2rem; */
+    padding: 0;
   }
 
   .small-image {

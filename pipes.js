@@ -33,6 +33,9 @@ const pipe1 = {
     weight: "61gr",
     wood: "Oak",
     stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "No filter",
+    pipeStand: "Not Included",
   },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -62,6 +65,9 @@ const pipe2 = {
     weight: "32gr",
     wood: "Applewood",
     stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "No filter",
+    pipeStand: "Not Included",
   },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -91,6 +97,9 @@ const pipe3 = {
     weight: "35gr",
     wood: "Cherry Wood",
     stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "No filter",
+    pipeStand: "Not Included",
   },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -120,6 +129,9 @@ const pipe4 = {
     weight: "33gr",
     wood: "Cherry Wood",
     stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "No filter",
+    pipeStand: "Not Included",
   },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -149,6 +161,9 @@ const pipe5 = {
     weight: "50gr",
     wood: "Cherry Wood",
     stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "No filter",
+    pipeStand: "Not Included",
   },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -178,6 +193,9 @@ const pipe6 = {
     weight: "28gr",
     wood: "Cherry Wood",
     stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "No filter",
+    pipeStand: "Not Included",
   },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -207,6 +225,9 @@ const pipe7 = {
     weight: "46gr",
     wood: "Padouk",
     stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "No filter",
+    pipeStand: "Not Included",
   },
   fullDescription: `Handcrafted Elegance 
  <br><br>  
@@ -236,6 +257,9 @@ const pipe8 = {
     weight: "32gr",
     wood: "Cherry Wood and Boxwood",
     stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "No filter",
+    pipeStand: "Not Included",
   },
   fullDescription: `Handcrafted Elegance 
  <br><br>  

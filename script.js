@@ -156,7 +156,13 @@ if (list[item].specs) {
            <span class="rightSpecsText"><span class="specText">Weight: </span><span>   ${list[item].specs.weight};</span></span>
            <span><span class="specText">Wood: </span><span>   ${list[item].specs.wood};</span></span>
            <span class="middleSpecsText"><span class="specText">Stem: </span><span>   ${list[item].specs.stem};</span></span>
-  </div>
+           
+           <span class="middleSpecsText"><span class="specText">Filter: </span><span>   ${list[item].specs.filter};</span></span>
+           <span><span class="specText">Pipe Stand: </span><span>   ${list[item].specs.pipeStand};</span></span>
+
+           <span class="middleSpecsText"><span class="specText">Price: </span><span>   ${list[item].specs.price};</span></span>
+           </div>
+   
   </div>`;
 } else {
   noErrorSpecsDiv = ``;

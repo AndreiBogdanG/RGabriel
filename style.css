@@ -97,6 +97,11 @@ body {
   text-align: center;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
 .itemDescription {
   font-size: 1.5rem;
   text-align: center;

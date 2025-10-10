@@ -276,7 +276,7 @@ const pipe9 = {
   image5: "",
   title: "Leather Pouch",
   shortDescription: `Natural Leather Pipe and Tobacco Pouch`,
-  link: "https://etsy.com",
+  link: "https://www.etsy.com/shop/artpipecraft",
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "300",
@@ -333,9 +333,9 @@ const pipe12 = {
   image5: "",
   title: "(Numele pipei)",
   shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
-  link: "#",
+  link: "https://www.etsy.com/shop/artpipecraft",
   btnText1: "Details",
-  btnText2: "Not Available!",
+  btnText2: "Buy It on Etsy",
   dataAosDelay: "300",
   fullDescription: `Handcrafted Elegance 
  <br><br>  

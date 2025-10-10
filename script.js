@@ -146,7 +146,7 @@ var noErrorSpecsDiv;
 // Creeaza noErrorDiv pentru product page
 if (list[item].specs) {
   noErrorSpecsDiv = `
-  <div id="bigSpecsDiv"> 
+  <div id="bigSpecsDiv">
            <div id="specsDiv">
            <span><span class="specText">Length: </span><span>  ${list[item].specs.length};</span></span>
            <span class="middleSpecsText"><span class="specText">Height: </span><span>   ${list[item].specs.height};</span></span>
@@ -170,6 +170,10 @@ const noErrorDiv = `
   </div>
 
   
+  ${noErrorSpecsDiv}
+
+
+
   <div class="itemDescription">
     ${list[item].fullDescription}                
   </div>

@@ -87,8 +87,6 @@ newProductDiv.style.height = "100%";
 newProductDiv.setAttribute("data-aos", "fade-up");
 newProductDiv.setAttribute("data-aos-delay", `${list[item].dataAosDelay}`);
 
-console.log(list[item].specs.wood);
-
 // Verifică dacă linkul este "#"
 let onClickProp = "";
 
@@ -144,16 +142,12 @@ for (let i = 1; i <= 15; i++) {
     `;
   }
 }
-
+var noErrorSpecsDiv;
 // Creeaza noErrorDiv pentru product page
-
-const noErrorDiv = `
-  <div class="text-3xl md:text-4xl font-bold text-center text-briar mb-16">
-    ${list[item].title}
-  </div>
-
-  <div id="bigSpecsDiv">
-  <div id="specsDiv">
+if (list[item].specs) {
+  noErrorSpecsDiv = `
+  <div id="bigSpecsDiv"> 
+           <div id="specsDiv">
            <span><span class="specText">Length: </span><span>  ${list[item].specs.length};</span></span>
            <span class="middleSpecsText"><span class="specText">Height: </span><span>   ${list[item].specs.height};</span></span>
            <span class="rightSpecsText"><span class="specText">Bowl Diameter: </span><span>   ${list[item].specs.bowlDiameter};</span></span>
@@ -163,9 +157,19 @@ const noErrorDiv = `
            <span><span class="specText">Wood: </span><span>   ${list[item].specs.wood};</span></span>
            <span class="middleSpecsText"><span class="specText">Stem: </span><span>   ${list[item].specs.stem};</span></span>
   </div>
- </div>
+  </div>`;
+} else {
+  noErrorSpecsDiv = ``;
+}
 
+var finalSpecsDiv;
 
+const noErrorDiv = `
+  <div class="text-3xl md:text-4xl font-bold text-center text-briar mb-16">
+    ${list[item].title}
+  </div>
+
+  
   <div class="itemDescription">
     ${list[item].fullDescription}                
   </div>

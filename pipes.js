@@ -338,6 +338,38 @@ Each draw becomes a quiet meditation, a moment suspended between earth and sky. 
 
 const pipe11 = {
   item: "11",
+  image: "Gallery/Flower/Flower.jpg",
+  image1: "",
+  image2: "",
+  image3: "",
+  image4: "",
+  image5: "",
+  title: "Flower",
+  shortDescription: `Flower-Shaped Smoking Pipe`,
+  link: "https://www.etsy.com/shop/artpipecraft",
+  btnText1: "Details",
+  btnText2: "Buy It on Etsy",
+  dataAosDelay: "300",
+  specs: {
+    length: "",
+    height: "",
+    bowlDiameter: "",
+    chamberDiameter: "",
+    chamberDepth: "",
+    weight: "",
+    wood: "",
+    stem: "Acrylic",
+    price: "Check on Etsy",
+    filter: "",
+    pipeStand: "Not Included",
+  },
+  fullDescription: `Handcrafted Elegance 
+ <br><br>  
+    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
+};
+
+const pipe12 = {
+  item: "12",
   image: "Gallery/LeatherPouch/LeatherPouch.jpg",
   image1: "",
   image2: "",
@@ -355,8 +387,8 @@ const pipe11 = {
     Each leather pouch is handmade with care and intention, shaped to hold not just tobacco and tools, but the quiet ritual that accompanies them. The scent of genuine leather, the softness gained with time, the fine stitching — all speak of craftsmanship and patience. No two pieces are ever alike. Each bears the marks of the artisan’s hands and the natural grain of the leather — unique, enduring, personal.More than a simple case, it is a companion for the thoughtful smoker — carrying the warmth of tradition and the spirit of slow, mindful living. Whether on the road or resting on a desk, it tells a story of elegance, simplicity, and authenticity.`,
 };
 
-const pipe12 = {
-  item: "12",
+const pipe13 = {
+  item: "13",
   image: "Gallery/Coin/Coin.jpg",
   image1: "Gallery/Coin/Coin1.jpg",
   image2: "Gallery/Coin/Coin3.jpg",
@@ -374,8 +406,8 @@ const pipe12 = {
    Forged in brass and shaped by thought, this coin embodies the quiet art of contemplation. One side bears the emblem of the Pipe Society — a book for knowledge, a pipe crowned with laurel for virtue and calm. Together, they speak of wisdom earned not in haste, but in silence.On the reverse, the profile of a man with his pipe — serene, timeless, absorbed in thought. Around him, the words: “Wisdom hides in the silence of a pipe.” A simple truth, cast in metal — a reminder that reflection needs no noise, and understanding often comes in smoke and stillness. More than a token, it is a symbol of ritual, patience, and mind’s repose — a tribute to those who find meaning in the quiet moments between thoughts.`,
 };
 
-const pipe13 = {
-  item: "13",
+const pipe14 = {
+  item: "14",
   image: "Gallery/Stand/Stand.jpg",
   image1: "",
   image2: "",
@@ -408,6 +440,7 @@ const list = [
   pipe11,
   pipe12,
   pipe13,
+  pipe14,
 ];
 
 export default list;

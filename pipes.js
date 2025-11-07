@@ -385,7 +385,9 @@ const pipe12 = {
   dataAosDelay: "300",
   fullDescription: `Crafted for the Journey 
  <br><br>  
-    Each leather pouch is handmade with care and intention, shaped to hold not just tobacco and tools, but the quiet ritual that accompanies them. The scent of genuine leather, the softness gained with time, the fine stitching — all speak of craftsmanship and patience. No two pieces are ever alike. Each bears the marks of the artisan’s hands and the natural grain of the leather — unique, enduring, personal.More than a simple case, it is a companion for the thoughtful smoker — carrying the warmth of tradition and the spirit of slow, mindful living. Whether on the road or resting on a desk, it tells a story of elegance, simplicity, and authenticity.`,
+    Each leather pouch is handmade with care and intention, shaped to hold not just tobacco and tools, but the quiet ritual that accompanies them. The scent of genuine leather, the softness gained with time, the fine stitching — all speak of craftsmanship and patience. No two pieces are ever alike. Each bears the marks of the artisan’s hands and the natural grain of the leather — unique, enduring, personal.
+    <br><br> 
+    More than a simple case, it is a companion for the thoughtful smoker — carrying the warmth of tradition and the spirit of slow, mindful living. Whether on the road or resting on a desk, it tells a story of elegance, simplicity, and authenticity.`,
 };
 
 const pipe13 = {
@@ -404,7 +406,9 @@ const pipe13 = {
   dataAosDelay: "300",
   fullDescription: `Crafted for the Journey 
  <br><br>  
-    Each leather pouch is handmade with care and intention, shaped to hold not just tobacco and tools, but the quiet ritual that accompanies them. The scent of genuine leather, the softness gained with time, the fine stitching — all speak of craftsmanship and patience. No two pieces are ever alike. Each bears the marks of the artisan’s hands and the natural grain of the leather — unique, enduring, personal.More than a simple case, it is a companion for the thoughtful smoker — carrying the warmth of tradition and the spirit of slow, mindful living. Whether on the road or resting on a desk, it tells a story of elegance, simplicity, and authenticity.`,
+    Each leather pouch is handmade with care and intention, shaped to hold not just tobacco and tools, but the quiet ritual that accompanies them. The scent of genuine leather, the softness gained with time, the fine stitching — all speak of craftsmanship and patience. No two pieces are ever alike. Each bears the marks of the artisan’s hands and the natural grain of the leather — unique, enduring, personal.
+    <br><br> 
+    More than a simple case, it is a companion for the thoughtful smoker — carrying the warmth of tradition and the spirit of slow, mindful living. Whether on the road or resting on a desk, it tells a story of elegance, simplicity, and authenticity.`,
 };
 
 const pipe14 = {

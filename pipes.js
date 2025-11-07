@@ -440,11 +440,11 @@ const pipe15 = {
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
-  fullDescription: `This elegant handmade wooden pipe stand is designed to combine functionality with refined craftsmanship. Each piece is carefully crafted from premium wood, featuring a smooth, natural finish that highlights the beauty of the grain.
+  fullDescription: `This elegant handmade wooden pipe stand is designed to combine functionality with refined craftsmanship. Each piece is carefully crafted from premium wood, featuring a natural finish that highlights the beauty of the grain.
   <br><br>  
-    The stand includes a dedicated slot designed to hold one of our handcrafted collectible coins, available separately on our website—allowing you to personalize your stand with a touch of unique artistry.
+    It includes a dedicated slot designed to hold one of our handmade collectible coins, available separately on our website — allowing you to personalize your stand with a touch of unique artistry.
   <br><br>  
-    With its minimalist design and thoughtful details, this pipe stand offers a stylish and practical way to rest your pipe while adding a touch of sophistication to your smoking ritual or collection display.
+    With its minimalist design and thoughtful details, this stand offers a stylish and practical way to rest your pipe while adding a touch of sophistication to your smoking ritual or collection display.
 `,
 };
 

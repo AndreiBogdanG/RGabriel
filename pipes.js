@@ -434,15 +434,18 @@ const pipe15 = {
   image3: "",
   image4: "",
   image5: "",
-  title: "Pipe Stand",
-  shortDescription: `A carmui peste om este arta artelor, sau ceva de genul...`,
+  title: "Handcrafted Wooden Pipe Stand with Coin Slot",
+  shortDescription: ``,
   link: "https://www.etsy.com/listing/4384564694/tobacco-pipe-stand",
   btnText1: "Details",
   btnText2: "Buy It on Etsy",
   dataAosDelay: "200",
-  fullDescription: `Handcrafted Elegance 
- <br><br>  
-    Each pipe is born from the hands of a craftsman — shaped, polished, and finished with patience and devotion. Every curve, every grain of wood tells its own story, making each piece one of a kind,  never to be repeated. These pipes are not products of industry, but of art and intention. They carry the warmth of the maker's touch, the quiet precision of tradition, and the beauty that only time and skill can create. A handmade pipe is more than an object — it is a companion,a reflection of calm moments, of thought and ritual. To hold it is to feel the harmony between nature, craft, and soul.`,
+  fullDescription: `This elegant handmade wooden pipe stand is designed to combine functionality with refined craftsmanship. Each piece is carefully crafted from premium wood, featuring a smooth, natural finish that highlights the beauty of the grain.
+  <br><br>  
+    The stand includes a dedicated slot designed to hold one of our handcrafted collectible coins, available separately on our website—allowing you to personalize your stand with a touch of unique artistry.
+  <br><br>  
+    With its minimalist design and thoughtful details, this pipe stand offers a stylish and practical way to rest your pipe while adding a touch of sophistication to your smoking ritual or collection display.
+`,
 };
 
 const list = [

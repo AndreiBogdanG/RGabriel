@@ -390,6 +390,25 @@ const pipe12 = {
 
 const pipe13 = {
   item: "13",
+  image: "Gallery/DecoPouch/DecoPouch.jpg",
+  image1: "Gallery/DecoPouch/DecoPouch1.jpg",
+  image2: "Gallery/DecoPouch/DecoPouch2.jpg",
+  image3: "Gallery/DecoPouch/DecoPouch3.jpg",
+  image4: "Gallery/DecoPouch/DecoPouch4.jpg",
+  image5: "",
+  title: "Deco Leather Pouch",
+  shortDescription: `Natural Leather Pipe and Tobacco Pouch`,
+  link: "https://www.etsy.com/shop/artpipecraft",
+  btnText1: "Details",
+  btnText2: "Buy It on Etsy",
+  dataAosDelay: "300",
+  fullDescription: `Crafted for the Journey 
+ <br><br>  
+    Each leather pouch is handmade with care and intention, shaped to hold not just tobacco and tools, but the quiet ritual that accompanies them. The scent of genuine leather, the softness gained with time, the fine stitching — all speak of craftsmanship and patience. No two pieces are ever alike. Each bears the marks of the artisan’s hands and the natural grain of the leather — unique, enduring, personal.More than a simple case, it is a companion for the thoughtful smoker — carrying the warmth of tradition and the spirit of slow, mindful living. Whether on the road or resting on a desk, it tells a story of elegance, simplicity, and authenticity.`,
+};
+
+const pipe14 = {
+  item: "14",
   image: "Gallery/Coin/Coin.jpg",
   image1: "Gallery/Coin/Coin1.jpg",
   image2: "Gallery/Coin/Coin3.jpg",
@@ -407,8 +426,8 @@ const pipe13 = {
    Forged in brass and shaped by thought, this coin embodies the quiet art of contemplation. One side bears the emblem of the Pipe Society — a book for knowledge, a pipe crowned with laurel for virtue and calm. Together, they speak of wisdom earned not in haste, but in silence.On the reverse, the profile of a man with his pipe — serene, timeless, absorbed in thought. Around him, the words: “Wisdom hides in the silence of a pipe.” A simple truth, cast in metal — a reminder that reflection needs no noise, and understanding often comes in smoke and stillness. More than a token, it is a symbol of ritual, patience, and mind’s repose — a tribute to those who find meaning in the quiet moments between thoughts.`,
 };
 
-const pipe14 = {
-  item: "14",
+const pipe15 = {
+  item: "15",
   image: "Gallery/Stand/Stand.jpg",
   image1: "",
   image2: "",
@@ -442,6 +461,7 @@ const list = [
   pipe12,
   pipe13,
   pipe14,
+  pipe15,
 ];
 
 export default list;
